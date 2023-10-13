@@ -39,7 +39,6 @@ const Navigation: React.FC<NavigationProps> = (props) => {
           {menuItems.map((link) => {
             return (
               <Link
-                className={link.isMainRoute && activeStyle}
                 href={link.slug}
               >
                 {link.value}
