@@ -21,7 +21,7 @@ const page = () => {
         <div className="w-full lg:w-4/5 pt-16">
           <div className="w-full flex flex-col items-center mb-10">
             <h1 className="text-black font-outfit text-3xl font-semibold text-center max-w-xl">
-              Why should you use and invest time in the Irani.World platform?
+              What is the Irani.World platform
             </h1>
             <div className="flex items-center gap-x-6 mt-6  text-white-shade-8 font-medium">
               <div className="flex items-center gap-x-2 text-sm">
@@ -68,14 +68,16 @@ const page = () => {
               <div className="flex items-center gap-x-3">
                 <img className="w-8" src="/images/avatar/1.png" alt="" />
                 <h1 className="text-sm font-semibold font-opensans flex flex-col items-start">
-                  by sajjadezati
+                  By Irani World Board
                 </h1>
               </div>
             </div>
           </div>
           <div
             className="w-full h-[400px] rounded-3xl bg-cover bg-center"
-            style={{ backgroundImage: `url('/images/thumbnails/3.jpg')` }}
+            style={{
+              backgroundImage: `url('/images/thumbnails/iw-inside-1.jpg')`,
+            }}
           ></div>
           <div className="w-full flex gap-x-14 my-10">
             <div className="flex flex-col gap-y-3">
@@ -153,26 +155,23 @@ const page = () => {
             </div>
             <div className="flex flex-col gap-y-12">
               <p className="text-white-shade-10 text-xl leading-8">
-                Bringing Iranian businesses and professionals together has
-                valuable positive impact both for the individual Iranian as well
-                as the community as a whole. At minimum, community solidarity
-                will help Iranian businesses survive hard times. In good times,
-                community solidarity is a business bonus that can go to planning
-                future growth, sustainability, or innovation.
-              </p>
-              <p className="text-white-shade-10 text-xl leading-8">
-                Bringing Iranian businesses and professionals together has
-                valuable positive impact both for the individual Iranian as well
-                as the community as a whole. At minimum, community solidarity
-                will help Iranian businesses survive hard times. In good times,
-                community solidarity is a business bonus that can go to planning
-                future growth, sustainability, or innovation.
+                All people who have some connection to Iranian culture or
+                ethnicity, are welcome to this platform. An Iranian business or
+                professional profile on the Irani.World platform is just an
+                option for the consumer. There is no obligation whether implicit
+                or explicit to hire Iranian. However, Irani.World will
+                significantly benefit immigrants, asylees, and other Iranian
+                ex-pats in their new countries - to help them find services from
+                Iranian speaking providers for their critical needs such as
+                physical and emotional health and wellness. Iranian businesses
+                and professionals can ease the ex-pat’s adaptation to their new
+                country, culture, legal system, education system, and much more.
               </p>
             </div>
           </div>
           <div
             className="w-full h-[400px] rounded-3xl bg-cover bg-center mb-10"
-            style={{ backgroundImage: `url('/images/thumbnails/2.jpg')` }}
+            style={{ backgroundImage: `url('/images/thumbnails/iw-inside-2.jpg')` }}
           ></div>
           <div className="w-full flex flex-col gap-x-14 my-10 pb-24 border-b border-white-shade-4">
             <div className="flex gap-x-10 mb-10">
@@ -206,22 +205,14 @@ const page = () => {
                 </svg>
               </div>
               <div className="flex flex-col gap-y-12">
-                <p className="text-white-shade-10 text-xl leading-8">
-                  Bringing Iranian businesses and professionals together has
-                  valuable positive impact both for the individual Iranian as
-                  well as the community as a whole. At minimum, community
-                  solidarity will help Iranian businesses survive hard times. In
-                  good times, community solidarity is a business bonus that can
-                  go to planning future growth, sustainability, or innovation.
-                </p>
-                <p className="text-white-shade-10 text-xl leading-8">
-                  Bringing Iranian businesses and professionals together has
-                  valuable positive impact both for the individual Iranian as
-                  well as the community as a whole. At minimum, community
-                  solidarity will help Iranian businesses survive hard times. In
-                  good times, community solidarity is a business bonus that can
-                  go to planning future growth, sustainability, or innovation.
-                </p>
+              <p className="text-white-shade-10 text-xl leading-8">
+                The Irani.World platform will first launch in United States,
+                where the largest Iranian ex-pat community resides. Followed by
+                Europe and the Persian Gulf. Once Iran become open to freedom,
+                the final launch of this platform will be in Iran, with the hope
+                of connecting Iranian businesses without becoming servants of
+                today’s cyber giants.
+              </p>
               </div>
             </div>
             <div className="ml-24 flex gap-x-5 items-center">
@@ -241,11 +232,11 @@ const page = () => {
                 Tags
               </div>
               <div className="flex gap-x-2 items-center">
-                <Tag title={"Avaz"} />
-                <Tag title={"Classic music of iran"} />
-                <Tag title={"Dastgah"} />
-                <Tag title={"Folk music"} />
-                <Tag title={"Radif"} />
+                <Tag title={"Platform"} />
+                <Tag title={"Launch"} />
+                <Tag title={"Iran"} />
+                <Tag title={"Community"} />
+                <Tag title={"Iranian"} />
               </div>
             </div>
           </div>
@@ -253,17 +244,30 @@ const page = () => {
             <div className="w-full flex gap-x-4">
               <BlogCardM
                 classes={"lg:my-10 lg:w-1/2"}
-                readingTime={"3 min read"}
+                readingTime={"6 min read"}
                 title={
-                  "Exploring Shirez Canyon in the Heart of Zagros Mountains"
+                  "Why should you use and invest time in the Irani.World platform? "
                 }
                 summery={
-                  "Shirez Canyon: A Natural Wonder in the Heart of Zagros Mountains..."
+                  "Bringing Iranian businesses and professionals together has valuable positive "
                 }
-                author={"Anna Rosé"}
+                author={"Irani World"}
                 publish={"Posted just now"}
-                avatar={""}
-                cover={"/images/thumbnails/2.jpg"}
+                avatar={"/images/bloggers/irani-world.png"}
+                cover={"/images/thumbnails/iw-inside-1.jpg"}
+                info={false}
+              />
+               <BlogCardM
+                classes={"lg:my-10 lg:w-1/2"}
+                readingTime={"3 min read"}
+                title={"Crafting the Vision of Irani USA from Idea to Reality"}
+                summery={
+                  "In the world of web design and development, there are  ... "
+                }
+                author={"Riv Design"}
+                publish={"Posted just now"}
+                avatar={"/images/bloggers/riv.png"}
+                cover={"/images/thumbnails/riv-cover.jpg"}
                 info={false}
               />
             </div>
@@ -308,12 +312,11 @@ const page = () => {
                 Tags
               </h3>
               <div className="max-w-sm flex items-center flex-wrap gap-x-2 gap-y-3">
-                <Tag title={"Dastgah"} />
-                <Tag title={"Folk music"} />
-                <Tag title={"setar"} />
-                <Tag title={"tar"} />
-                <Tag title={"tar"} />
-                <Tag title={"tour"} />
+              <Tag title={"Platform"} />
+                <Tag title={"Launch"} />
+                <Tag title={"Iran"} />
+                <Tag title={"Community"} />
+                <Tag title={"Iranian"} />
               </div>
             </div>
           </div>

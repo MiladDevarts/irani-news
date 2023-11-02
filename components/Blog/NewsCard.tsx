@@ -11,13 +11,14 @@ interface NewsCardProps {
   cover: string;
   cm: string;
   like: string;
+  url:string
 }
 
 const NewsCard: React.FC<NewsCardProps> = (props) => {
   return (
     <>
       <Link
-        href={"#"}
+        href={props.url}
         className="w-full lg:w-1/2 group mt-0 lg:hover:-mt-2 transition-all duration-500"
       >
         <div

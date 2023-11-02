@@ -19,7 +19,7 @@ const BlogCardM: React.FC<BlogCardMProps> = (props) => {
       <Link className={`${props.classes} w-full`} href={"#"}>
         <div className="rounded-2xl border-[1.5px] border-white-shade-3 hover:shadow-card transition-all duration-300">
           <div
-            className="w-full h-60 bg-cover bg-center rounded-t-2xl"
+            className="w-full h-80 bg-cover bg-center rounded-t-2xl"
             style={{ backgroundImage: `url(${props.cover})` }}
           ></div>
           <div className="flex flex-col gap-y-4">
@@ -32,7 +32,7 @@ const BlogCardM: React.FC<BlogCardMProps> = (props) => {
             <hr className="h-[1.5px] bg-white-shade-4 w-full" />
             <div className="px-6 pb-6 flex items-center justify-between">
               <div className="flex items-center gap-x-3">
-                <img className="w-10" src="/images/blog/User.webp" alt="" />
+                <img className="w-10" src={props.avatar} alt="" />
                 <h1 className="text-black font-semibold font-opensans flex flex-col items-start">
                   {props.author}
                   <span className="font-opensans text-sm text-white-shade-9 font-normal">
