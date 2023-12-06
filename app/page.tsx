@@ -97,6 +97,7 @@ const page = () => {
           </div>
           <div className="w-full flex flex-col gap-y-4 mb-10">
             <NewsCardFullWidth
+              url="/riv-design-company"
               readingTime={"3"}
               title={"Crafting the Vision of Irani USA from Idea to Reality"}
               subtitle={"Compnay"}
@@ -109,6 +110,7 @@ const page = () => {
               cover={"/images/thumbnails/riv-cover.jpg"}
             />
             <NewsCardFullWidth
+              url="/wsa-company"
               readingTime={"3"}
               title={
                 "WSA Company Announces Exciting Partnership with RIV Company and WPS Association for Innovative Advertising Platform"
@@ -123,6 +125,7 @@ const page = () => {
               cover={"/images/thumbnails/wsa-cover.jpg"}
             />
             <NewsCardFullWidth
+              url="/riv-design-company"
               readingTime={"3"}
               title={
                 "Bridging Boundaries: WPS Association's New Endeavor - WSA"
@@ -137,6 +140,7 @@ const page = () => {
               cover={"/images/thumbnails/wps-cover.jpg"}
             />
             <NewsCardFullWidth
+              url="/riv-design-company"
               readingTime={"3"}
               title={
                 "Unveiling Irani.World's American Section: A Job and Personalization Platform Tailored for Iranian Americans"

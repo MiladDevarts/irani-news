@@ -12,12 +12,13 @@ interface NewsCardFullWidthProps {
   publish: string;
   avatar: string;
   cover: string;
+  url:string
 }
 
 const NewsCardFullWidth: React.FC<NewsCardFullWidthProps> = (props) => {
   return (
     <Link
-      href={"/"}
+      href={props.url}
       className="group flex flex-col gap-y-4 lg:flex-row lg:items-center justify-between w-full h-auto px-6 lg:p-8 py-8 border-y border-white-shade-4  hover:shadow-card transition-all duration-300"
     >
       <div className="w-full lg:w-3/5 flex flex-col gap-y-4">
